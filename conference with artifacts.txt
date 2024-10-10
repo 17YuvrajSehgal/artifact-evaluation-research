@@ -1,0 +1,50 @@
+CONFERENCE WITH ARTIFACTS
+1.	https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation 
+2.	https://formalise2024.github.io/artifact.html
+3.	https://asiacrypt.iacr.org/2024/artifacts.php
+4.	https://conf.researchr.org/track/icse-2025/icse-2025-artifact-evaluation 
+5.	https://conf.researchr.org/committee/seams-2024/seams-2024-organizing-committee
+6.	https://conf.researchr.org/track/RE-2024/RE-2024-artifacts?#Submission-Instructions 
+7.	https://www.hpca-conf.org/2024/submit/artifacts.php
+8.	https://www.usenix.org/conference/atc24/call-for-artifacts 
+9.	WOOT '24 Call for Artifacts | USENIX
+10.	Artifact Evaluation: About (artifact-eval.org)
+11.	Artifact evaluation – ECRTS 2024 – 36th Euromicro Conference on Real-Time Systems
+12.	ACM SIGCOMM 2024 will be held in Sydney, Australia during August 4-8, 2024.
+13.	https://conf.researchr.org/home/icsme-2024
+14.	Artifacts (dsn2024uq.github.io)
+15.	ISCA 2024: Artifact Evaluation (iscaconf.org)
+16.	https://issre.github.io/2024/calls_cfp-artifact_evaluation.html  
+17.	Artifact Evaluation | SIAM
+18.	FAST '24 Call for Artifacts | USENIX
+19.	ESOP and FoSSaCS Artifact Evaluation (etaps.org)
+20.	https://www.sigsac.org/ccs/CCS2024/call-for/call-for-artifacts.html 
+21.	ATC - Systems Research Artifacts (sysartifacts.github.io)
+22.	EuroSys - Systems Research Artifacts (sysartifacts.github.io)
+23.	FAST - Systems Research Artifacts (sysartifacts.github.io)
+24.	OSDI - Systems Research Artifacts (sysartifacts.github.io)
+25.	OSDI '24 Call for Artifacts | USENIX
+26.	SC - Systems Research Artifacts (sysartifacts.github.io)
+27.	SOSP - Systems Research Artifacts (sysartifacts.github.io)
+28.	Artifact Review and Badging – Version 1.0 (not current) (acm.org)
+29.	Paper Artifacts - Annual Computer Security Applications Conference (ACSAC)
+30.	https://ctuning.org/ae/micro2024.html 
+31.	https://2023.splashcon.org/track/splash-2023-Artifacts#Call-for-Artifacts 
+32.	Call for Artifacts – ACM WiSec 2023 (surrey.ac.uk)
+33.	CALL FOR ARTIFACTS (middleware-conf.github.io)
+34.	CHES 2023 Artifact Evaluation (iacr.org)
+35.	NDSS Symposium 2025 Call for Artifacts - NDSS Symposium (ndss-symposium.org)
+36.	SysTEX 2024 (systex24.github.io)
+37.	Artifact Evaluation - Security Research Artifacts (secartifacts.github.io)
+38.	Call for Artifacts · iFM 2022 (usi.ch)
+39.	CGO 2025 - Artifact Evaluation - CGO 2025
+40.	https://mlsys.org/Conferences/2023/CallForAE
+41.	Euro-Par 2024 | Artifacts | International European Conference on Parallel and Distributed Computing
+42.	SAS 2024 - Artifacts - SPLASH 2024 (splashcon.org)
+43.	https://pldi24.sigplan.org/track/pldi-2024-pldi-research-artifacts#Call-for-Artifacts 
+44.	Artifact Evaluation – International Symposium on Field-Programmable Gate Arrays (isfpga.org)
+45.	TACAS — International Conference on Tools and Algorithms for the Construction and Analysis of Systems
+46.	International World Wide Web Conference 2024 ( WWW2024 | The Web Conf 2024 ) | Call for Demo
+47.	QEST+FORMATS 2024 International Conference - Artifact Evaluation (qest-formats.org)
+48.	PoPETs/PETS (petsymposium.org)
+49.	https://eapls.org/pages/artifact_badges/
