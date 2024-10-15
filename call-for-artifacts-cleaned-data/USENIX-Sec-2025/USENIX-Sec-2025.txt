@@ -1,0 +1,168 @@
+Artifact Evaluation
+In pursuit of promoting open science and increasing the reproducibility of scientific studies in the security community, the Call for Papers for USENIX Security ‘25 initiated an “Open-Science” policy. This policy requires authors to share their research artifacts by default, which an Artifact Evaluation Committee will then evaluate for availability. Optionally, these artifacts can also be assessed for functionality and reproducibility.
+
+This site is set up to provide relevant information to authors and artifact evaluators about the artifact evaluation process. After the artifact evaluation, this website will document the evaluation results.
+
+All major updates to the site content will be noted in the Change Log.
+
+USENIX Security '25 Call for Artifacts
+Sponsored by USENIX, the Advanced Computing Systems Association.
+
+The 34th USENIX Security Symposium will evaluate research artifacts for availability, functionality, and reproducibility.
+
+All authors of accepted USENIX Security '25 papers (including Accepted on Shepherd Approval and Invited for Major Revision papers) are expected to openly share their research artifacts by default and submit them for availability verification. Authors are also encouraged to submit their artifacts for functionality and reproducibility assessments. Each submitted artifact will be reviewed by the Artifact Evaluation Committee (AEC). Before submitting your artifact, please read the Artifact Evaluation Information below. Should you have any questions or concerns, you can reach the AEC chairs at sec25aec@usenix.org.
+
+Summary of main changes from previous editions:
+
+Authors of accepted papers are expected to openly share their artifacts and submit for availability verification, or explain why this is not possible. The functionality and reproducibility assessments remain optional.
+Artifacts (including shepherded and major revision papers) should be submitted in the same cycle as the accepted paper, instead of the next.
+Artifact availability verification starts after the first author notification deadline for each cycle, but before final papers are due.
+Similar to the paper submission cycles, there are two cycles instead of three for the AE.
+Important Dates
+Cycle 1
+Notification to authors (paper): Wednesday, December 11, 2024
+Artifacts due for availability verification
+For Accepted papers: Thursday, January 16, 2025
+For Accepted on Shepherd Approval/Invited for Major Revision: Friday, January 24, 2025
+Shepherding/revision author notification (paper): Thursday, January 23, 2025
+Artifact available decision notification: Wednesday, January 29, 2025
+Final papers due: Thursday, January 30, 2025
+Artifact functional/reproducible submission deadline: Thursday, February 13, 2025
+Artifact evaluation author discussion period: Thursday, February 20, 2025 to Wednesday, March 19, 2025
+Artifact functional/reproducible decision notification: Thursday, March 27, 2025
+Final appendix files due: Thursday April 3, 2025
+Cycle 2
+Notification to authors (paper): Wednesday, April 30, 2025
+Artifacts due for availability verification
+For Accepted papers: Thursday, May 29, 2025
+For Accepted on Shepherd Approval/Invited for Major Revision: Friday, June 6, 2025
+Shepherding/revision author notification (paper): Thursday, June 5, 2025
+Artifact available decision notification: Wednesday, June 11, 2025
+Final papers due: Thursday, June 12, 2025
+Artifact functional/reproducible submission deadline: Friday, June 20, 2025
+Artifact evaluation author discussion period: Thursday, June 26, 2025 to Wednesday July 23, 2025
+Artifact functional/reproducible decision notification: Thursday July 31, 2025
+Final appendix files due: Thursday August 7, 2025
+Artifact Evaluation Committee
+Artifact Evaluation Committee Co-Chairs
+Aurore Fass, CISPA Helmholtz Center for Information Security
+Phani Vadrevu, Louisiana State University
+
+Artifact Evaluation Publication Chair
+TBD
+
+Artifact Evaluation Committee
+TBA
+
+Artifact Evaluation Information
+Overview
+A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the paper itself. To emphasize the importance of such artifacts, the benefits to the authors and the community as a whole, and promote the availability and reproducibility of experimental results, USENIX Security runs an Artifact Evaluation. While research artifacts are expected to be available by default and submitted for availability verification by the above given deadlines, authors of accepted papers can optionally submit their artifacts also for functionality and reproducibility assessments. The AEC will review each submitted artifact and also grant Distinguished Artifact Awards to outstanding artifacts accepted to USENIX Security '25.
+
+Process
+Differently from previous AE iterations at USENIX Security, this year, the AE will take place in two submission phases: (1) a mandatory AE for availability after paper acceptance and before the final papers are due; (2) an optional AE for functionality and reproducibility after final papers are due. In both cases, the submitted artifacts will be reviewed by the AEC. Artifacts should be submitted in the same cycle as the accepted paper.
+
+Mandatory submission of artifacts for availability verification:
+First, authors of accepted papers (including Accepted on Shepherd Approval and Invited for Major Revision papers) are expected to openly share their research artifacts by default and submit them for the AE for availability verification before the final papers are due. If, for some reasons, artifacts cannot be shared, a detailed justification must be provided. For example, some artifacts may be subject to licensing restrictions, NDA, or ethical concerns (in some cases, e.g., interview transcripts or zero-day exploits). Even if the full artifacts cannot be shared (e.g., proprietary datasets), the rest of the artifacts (e.g., source code) is still expected to be shared and submitted to the AE. Papers that do not openly share their artifacts without a satisfactory reason will be rejected. In case of doubt, contact the PC chairs beforehand. Each submitted artifact will be reviewed by the Artifact Evaluation Committee (AEC).
+
+All papers submitted to USENIX Security '25 are expected to discuss the artifacts the authors will make publicly available; the authors should add this discussion in the one additional page allowed for discussing “compliance with the open science policy.” The text should refer to results from the main body of the paper and clearly enumerate all artifacts that will be made available. The AEC will then verify, during the availability verification phase, that all artifacts that were promised to be made available are publicly available.
+
+Please note that the artifacts need to be made available on a platform that supports permanent access. For this purpose, we recommend Zenodo. Other valid hosting options include institutional and third-party digital repositories such as FigShare, Dryad, and Software Heritage. On the other hand, we do not accept artifacts hosted on personal websites or software development repositories such as GitHub. Please see the artifact submission instructions for more details. In case of any questions, please contact the AEC chairs.
+
+N.B.: Authors of shepherded and major revision papers need to submit their artifacts in the same cycle they submitted their paper in. For example, a shepherded paper in Cycle 1 needs to submit their artifacts to the AE for availability verification in Cycle 1 (note that there is just one day between Shepherding/revision author notification and the submission deadline for availability verification for those papers, so authors should anticipate and plan accordingly).
+Optional submission of artifacts for functionality and reproducibility assessments:
+Second, authors of accepted papers are encouraged to register their artifacts to also be checked for functionality and reproducibility. Additional information regarding artifact registration deadline (for functionality and reproducibility assessments) and files to submit for review will be provided to the authors of accepted papers.
+Authors define the contents of their artifact submission. For example, software, hardware, data sets, survey results, test suites, mechanized (but not paper) proofs, access to special hardware, and so on. Authors choose which badges their artifact should be evaluated towards, i.e., one or two of the following: Artifacts Functional and Results Reproduced. In general, good artifacts are expected to be: consistent with the paper, as complete as possible, well documented, and easy to (re)use. The AEC will read the paper and then judge if the artifact meets the criteria for each of the requested badges.
+
+Each artifact submission will be reviewed by at least two AEC members. The review is single-blind and strictly confidential. All AEC members are instructed to treat the artifact confidentially during and after completing evaluation and to not retain any part of the artifact after evaluation. Artifacts can include models, data files, proprietary binaries, exploits under embargo, etc. Even if authors cannot make their artifacts publicly accessible (e.g., proprietary files), they could still apply for Artifacts Functional and Results Reproduced. Since we anticipate small glitches with installation and use, reviewers may communicate with authors during artifact evaluation to help resolve glitches while preserving reviewer anonymity. Please make sure that at least one of the authors is reachable to answer questions in a timely manner.
+
+Badges
+Submitted artifacts can be evaluated against the following badges:
+
+USENIX Badges	Description
+available badge	Artifacts Available: As per the new “Open-Science policy” of USENIX Security, all accepted papers are mandated to qualify for this badge. To earn this badge, the AEC must judge that the artifacts described in the “Open-Science section” of the paper have been made available for retrieval, permanently and publicly. The archived copy of the artifacts must be accessible via a long-term stable reference or DOI. For this purpose, we recommend Zenodo, but other valid hosting options include institutional and third-party digital repositories (e.g., FigShare, Dryad, or Software Heritage). Unlike previous iterations, software development repositories such as GitHub, GitLab, or personal web pages are not acceptable for this badge. Other than making the artifacts available, this badge does not mandate any further requirements on functionality, correctness, or documentation.
+functional badge	Artifacts Functional: To earn this badge, the AEC must judge that the artifacts conform to the expectations set by the paper in terms of functionality, usability, and relevance. In short, do the artifacts work, and are they useful for producing outcomes associated with the paper? The AEC will consider three aspects of the artifacts in particular:
+Documentation: are the artifacts sufficiently documented to enable them to be exercised by readers of the paper?
+Completeness: do the submitted artifacts include all of the key components described in the paper?
+Exercisability: do the submitted artifacts include the scripts and data needed to run the experiments described in the paper, and can the software be successfully executed?
+reproduced badge	Results Reproduced: To earn this badge, the AEC must judge that they can use the submitted artifacts to obtain the main results presented in the paper. In short, could the AEC independently repeat the experiments and obtain results that support the main claims made by the paper? The goal of this effort is not to reproduce the results exactly but instead to generate results independently within an allowed tolerance such that the main claims of the paper are validated.
+
+Submission instructions
+Artifact Evaluation (AE) in USENIX Security ‘25 will be conducted in two phases: (1) a mandatory AE phase for artifact availability after main paper acceptance and before the final camera-ready papers are due (Phase-1); (2) an optional AE phase for functionality and reproducibility checks after final papers are due (Phase-2). In both cases, the submitted artifacts will be reviewed by the Artifact Evaluation Committee (AEC). Artifacts should be submitted in the same cycle as the accepted paper. All authors are encouraged to check the separate deadlines for both phases in the Call for Artifacts. Having two separate deadlines ensures that authors have additional time to prepare their artifacts for the more advanced and optional “Artifact Functional” and “Results Reproducible” badges in Phase-2. Please note that papers that have been “Accepted” after “Shepherd Approval” or after being “Invited for Major Revision” have a slightly later deadline for Phase-1.
+
+For each cycle, a single HotCRP instance will be used to manage the AE for both phases.
+
+HotCRP links for artifact submission:
+
+Cycle-1 (link will be made available later)
+Cycle-2 (link will be made available later)
+The following describes what the authors are expected to do prior to each deadline.
+
+Phase-1: Artifacts AvailablePermalink
+Phase-1 AE is mandatory for all papers that get accepted to USENIX Security ‘25. In this phase, the AEC will assess and ensure that the artifacts are in compliance with the “Artifacts Available” badge requirements. The authors need to submit a permanent link to their artifacts hosted on recommended platforms (e.g., Zenodo, FigShare, Dryad, Software Heritage). The AEC will ensure that all the artifacts that were promised to be made available in the “Open-Science” section of the submitted paper were made available publicly and permanently. This evaluation will be completed before the camera-ready versions of the main paper are due.
+
+Phase-2: Artifacts Functional / Results ReproduciblePermalink
+Once the AE process for the mandatory Phase-1 is completed and “Artifacts Available” badge decisions are made, the AE chairs will reopen the HotCRP submission site for Phase-2. Phase-2 of the AE is optional and is meant for authors who intend to receive one or both of the following additional badges for their artifacts: “Artifacts Functional” and “Results Reproducible”. The submission deadline for this phase is after the camera-ready deadline of the main paper to allow the authors some additional time to revise their artifacts for the more stringent requirements of these two badges. However, we highly recommend that all interested authors start preparing their artifacts for this phase as soon as they receive their paper acceptance notification to allow for sufficient time.
+
+Most of the duration of this phase involves a single-blinded discussion period between the authors and AEC members. During this, the AEC members will work with the authors to help them improve the quality of their artifacts and make them amenable to the badges that they apply for. The AE timeline was set up to ensure approximately four weeks of time are allotted for this important discussion period. Throughout this period, the authors are expected to be available and improve their artifacts as per the feedback from the AEC. To kickstart this evaluation, authors can initially make the artifacts for this phase available on software development repositories (such as GitHub or GitLab) or Internet-accessible hardware owned/leased by the authors, containers/VMs, or any other reasonable format that enables evaluation. An important requirement for this phase is the submission of an artifact-appendix document in HotCRP. The HotCRP submission site will feature additional text fields to help in the AEC assignment process (such as the “artifact-access type” for evaluation), which the authors are expected to update prior to the deadline for Phase 2.
+
+After the discussion period, the AEC members will deliberate on the latest state of the artifacts and write reviews explaining their stance on each of the two badges. After this, the badge notifications will be sent, and the final reviews from the AEC will be released to the authors. The authors will then have about a week of time to consider and incorporate any final suggestions from the AEC’s reviews to improve the artifacts as well as the artifact appendix. The final artifact appendix should then be submitted by the authors and include a link to the evolved artifacts. At this stage, the artifacts should be hosted on recommended platforms that support permanent storage (e.g., Zenodo, FigShare, Dryad, etc., but not GitHub, GitLab, or personal websites). Compliance with these policies is mandatory for issuing the “Artifacts Functional” / “Results Reproducible” badges. We highly recommend the authors use the “version control” features available on all the recommended platforms such as Zenodo, FigShare, Dryad for this purpose. As Phase-2 begins only after the main camera-ready paper is due, the use of these versioning features allows future readers of the main paper with links to the initial version to still be able to access the final artifacts. At the same time, this website will also be updated to provide direct links to the final versions of artifacts as well as camera-ready versions of the artifact appendices.
+
+PackagingPermalink
+Artifacts must be packaged to ease evaluation. All submissions for “Artifacts Functional” and “Results Reproducible” badges must include an artifact appendix. Packaging is not only about evaluation but about future use of the artifact by other researchers who may want to build on top of it or use it as a baseline. In addition, consider how you plan to distribute your artifact.
+
+If you have any questions about how best to package your artifact, contact the AEC chairs.
+
+Destructive Artifacts: Some artifacts may attempt to perform malicious or destructive operations by design. These cases should be boldly and explicitly flagged in detail at artifact submission time so that the AEC can take appropriate precautions before installing and running these artifacts. Please check the relevant box in the submission form and contact the AEC chairs if you believe that your artifacts fall into this category.
+
+Camera-Ready Submission Instructions: For all artifacts that receive either “Artifacts Functional” or “Results Reproducible” badges, after the artifact evaluation is concluded, we will collect a camera-ready version of the artifact appendix. This includes information about the finalized artifact location, the appendix, and similar supplemental material. The instructions will be shared via email when the badge decisions are announced.
+
+Your artifact package must include an obvious “read me” document containing suitable instructions and documentation. A tool without a quick tutorial is generally very difficult to use. Similarly, a dataset is useless without an explanation of how to browse the data. Please see the badges page for more details on what the instructions should contain.
+
+Authors should consider one of the following methods to package the software components of their artifacts (although the AEC is open to other reasonable formats as well):
+
+Source code: If your artifact has few dependencies and can be installed easily on several operating systems, you may submit source code and build scripts. However, if your artifact has a long list of dependencies, please use one of the other formats below.
+
+Container/virtual machine: We recommend using a format that is easy for evaluators to work with, such as Docker images. In any case, the Dockerfile or script used to initialize the virtual machine should be available. Consider preparing the right toolchain and runtime environment.
+
+Live instance on the Web: Ensure that it is available during the artifact evaluation process.
+
+Internet-accessible hardware: If your artifact requires special hardware (e.g., SGX or another trusted execution environment), or if your artifact is actually a piece of hardware; please make sure that evaluators can access the device. VPN/SSH-based access to the device might be an option (in that case, please provide the SSH private access key directly in your submission to reduce time to gain access to hardware). Use the “Artifact access type” item on the submission form to indicate whether you will make compute resources available.
+
+Artifact StoragePermalink
+Great artifacts are easy to find and stored for a long time. The new “Open-Science policy” of USENIX Security mandates the sharing of final artifacts on a platform that supports permanent access. For this purpose, we recommend Zenodo. Other valid hosting options include institutional and third-party digital repositories (e.g., FigShare, Dryad, Software Heritage). Since the artifacts can potentially evolve during the evaluation to address feedback from the reviewers, one stable reference can be collected for artifact submission and another (potentially different) one for the final version of the artifact. We intend to utilize the versioning features supported by the above platforms for this purpose.
+
+Artifact AppendixPermalink
+The artifact appendix is a self-contained document that describes a roadmap for evaluators. This includes a description of the hardware, software, and configuration requirements, as well as the major claims made by the paper and how to reproduce each claim through your artifact. Linking the claims of the paper to the artifact is a necessary step that ultimately allows artifact evaluators to reproduce your results. It is of foremost importance that you state your paper’s key results and claims clearly. This is especially important if you think that these claims differ from the expectations set up by your paper. If possible, the appendix should also describe how to compare the results of a reproduced experiment to the ones found in the paper (e.g., by providing access to the underlying dataset of the results).
+
+The intention for the artifact appendix is to be published in conjunction with your artifact. A template for the artifact appendix and additional instructions for formatting it will be made available here later.
+
+Artifact Appendices are recommended to be at most 3 pages.
+
+Organizers
+Artifact Evaluation co-ChairsPermalink
+Aurore Fass, CISPA Helmholtz Center for Information Security
+Phani Vadrevu, Louisiana State University
+Contact the AEC chairs at sec25aec@usenix.org.
+
+Artifact Evaluation Publication ChairPermalink
+To be announced
+
+Artifact Evaluation CommitteePermalink
+To be announced
+
+
+Call for AEC Members
+For the sixth year, USENIX Security allows the evaluation of artifacts that support a paper: software, hardware, evaluation data and documentation, raw measurement data, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on.
+
+New this year: USENIX Security ‘25 has an “Open-Science policy” which mandates all authors to submit their accepted paper’s artifacts for availability verification. So, to accommodate this, both cycles of the AE will be conducted in two phases (one phase for availability verification and one phase for functionality and reproducibility assessments), as discussed in the Call for Artifacts.
+
+If you are interested in participating as an Artifact Evaluation Committee (AEC) member or would like to nominate someone, please fill out the form below. We expect that the AEC will consist of senior PhD students, postdocs, faculty, industry experts, and other researchers. The total workload is expected to be around 2 artifacts to assess (for AE functionality/reproducibility assessments) per submission cycle. In addition, a sub-committee of AEC members will be formed to help verify that all accepted papers publicly released their artifacts (for AE availability verification). This sub-committee can ask for a reduced review load (for AE functionality/reproducibility assessments) in lieu of their contributions (to AE availability verification). The AE chairs will provide more details about the timeline and process via e-mail. The AEC members are expected to serve for both review cycles for USENIX Security ‘25.
+
+As an AEC member, you will not only help promote the reproducibility of experimental results in systems research, but also get to familiarize yourself with research papers just accepted for publication at USENIX Security and explore their artifacts. For a given artifact, you may be asked to evaluate its public availability, functionality, and/or ability to reproduce the results from the paper. You will be able to discuss with other AEC members and anonymously interact with the authors as necessary, for instance if you are unable to get the artifact to work as expected. Finally, you will provide a review for the artifact to give constructive feedback to its authors, discuss the artifact with fellow reviewers, and help award the paper artifact evaluation badges.
+
+Overall, you will gain insights into a modern AE process, get mentoring and guidance during the process, and get a chance to receive a Distinguished Artifact Reviewer Award, granted to AEC members who have contributed with outstanding efforts and constructive feedback to authors during the AE. The AEC members will also be publicly acknowledged on the main conference as well as this website.
+
+How to ApplyPermalink
+If you are interested in becoming a part of the AEC, please complete this online form.
+
+You can reach the AEC chairs at sec25aec@usenix.org with any questions.
