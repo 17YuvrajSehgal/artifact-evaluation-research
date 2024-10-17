@@ -1,0 +1,51 @@
+**Generalized Guidelines for Artifact Evaluation and Submission for ACM WiSec**
+
+---
+
+**Objective:**
+
+The ACM WiSec Symposium facilitates research artifact certification to enhance reproducibility in mobile and wireless security experiments. This process enhances the reliability and impact of research by enabling replication and dissemination of experimental results, code, and setups. Recognized papers will receive badges if their experimental results are independently replicated.
+
+**Review Process:**
+
+1. **Initial Submission:**
+   - Authors submit a VirtualBox VM containing all necessary data and code for result replication.
+   - The submission is evaluated by at least two reviewers, who attempt to replicate the results.
+
+2. **Self-contained Environment:**
+   - VMs should be self-contained to prevent issues related to future software updates or backward compatibility.
+
+3. **Reviewer Interaction:**
+   - Reviewers will communicate directly with authors for clarification or to request VM updates.
+   - Early submission is encouraged to facilitate communication without influencing evaluation rigor.
+
+4. **Validation Outcomes:**
+   - If replication is successful, the committee grants a replicability badge.
+   - Authors receive a report detailing the regeneration process and evaluation.
+
+**Artifact Preparation:**
+
+1. **Virtual Machine (VM):**
+   - Prepare a VM using VirtualBox with all data and tools pre-installed.
+   - Include raw data (pre-processing scripts) and scripts for each graph/table in designated directories (e.g., Fig_XXX, Table_XXX).
+
+2. **Documentation:**
+   - Provide a README file in the home directory according to the provided format template.
+
+3. **Submission:**
+   - Submit VM via a link (e.g., Google Drive, Dropbox) or request upload credentials to the conference server.
+   - Utilize HotCRP for final submission.
+   - Consider releasing code and data independently on platforms like GitHub and Zenodo.
+
+4. **Availability and Reusability:**
+   - Make artifacts accessible on ACM WiSec datasets server post-conference.
+   - Receive badges for functional, reusable, available, and reproduced artifacts based on quality and success of replication.
+
+**Publication and Badges:**
+
+- **Artifacts Evaluated – Functional:** Adequately documented, consistent, complete, and executable artifacts.
+- **Artifacts Evaluated – Reusable:** Artifacts are meticulously documented to enhance reuse and community standards adherence.
+- **Artifacts Available:** Publicly accessible artifacts with a DOI or unique identifier.
+- **Artifacts Reproduced:** Results replicated by an independent team utilizing the author-provided artifacts.
+
+By adhering to these guidelines, authors can ensure their research artifacts meet high standards of reproducibility and usability, thereby enhancing the credibility and impact of their contributions in the wireless and mobile network security community.

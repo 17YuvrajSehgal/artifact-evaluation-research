@@ -1,0 +1,54 @@
+**Generalized Guidelines for Artifact Evaluation and Submission for Conferences**
+
+---
+
+**Overview:**
+
+Artifacts in scientific papers—such as software, hardware, and datasets—are crucial for verifying the research quality and results. Many conferences are now supporting the submission and evaluation of these artifacts to enhance reproducibility and impact. This process involves reviewing artifacts for availability, functionality, and alignment with the research paper's claims.
+
+**Artifact Submission Process:**
+
+1. **Registration:**
+   - By the registration deadline, authors should draft a submission including the abstract of the accepted paper, relevant topics, and any conflicts to assist with the review assignment.
+
+2. **Artifact Packaging and Submission:**
+   - Submit a stable URL or upload an archive of the artifact by the final submission deadline. Ensure you mark the artifact as "ready for review."
+
+3. **Artifact Webpage:**
+   - Create a single webpage at a stable URL that includes the artifact and detailed instructions for its use (especially critical for software-related submissions).
+
+**Documentation and Clarity:**
+
+- Provide clear documentation detailing claims associated with the artifact, especially if they differ from those in the paper.
+- Explain any potential difficulties the reviewers might encounter during the use of the artifact.
+
+**Evaluator Anonymity:**
+
+- Avoid embedding tracking or analytics in any part of the artifact submission to maintain reviewer anonymity. If this can't be avoided, notify the chairs accordingly.
+
+**Packaging Guidelines:**
+
+1. **Source Code:**
+   - Submit source code when artifacts are light on dependencies and can be set up easily across systems.
+
+2. **Virtual Machine/Container:**
+   - Use VMs or Docker images for artifacts requiring specific configurations or significant dependencies. Options include using VirtualBox, Docker, or an Amazon EC2 instance for distribution.
+
+3. **Binary Installer:**
+   - Clearly outline platform-specific requirements and runtime dependencies.
+
+4. **Live Web Instance:**
+   - Maintain artifact availability for reviewers throughout the evaluation.
+
+5. **Hardware Access:**
+   - For hardware dependencies, arrange reviewer access with possible options like VPN while respecting anonymity.
+
+6. **Screencast:**
+   - Provide detailed visual demonstrations, especially for artifacts with proprietary components, heavy computations, or specific resource needs.
+
+**Final Considerations:**
+
+- The goal is to assist the Artifact Evaluation Committee in determining whether the artifact satisfies the research claims established in the paper. Pack artifacts thoughtfully to streamline their evaluation.
+- Ensure you communicate proactively with the committee chairs if special arrangements or clarifications are needed, particularly for challenging or unique artifacts.
+
+By following these structured guidelines, researchers can contribute to a more transparent and reproducible scientific community, allowing greater validation and dissemination of research findings.

@@ -1,0 +1,65 @@
+**Generalized Guidelines for Artifact Evaluation and Submission for USENIX Security '25**
+
+---
+
+**Overview and Changes:**
+
+The 34th USENIX Security Symposium emphasizes the importance of research artifacts in scientific papers. These artifacts encompass software, hardware, datasets, proofs, models, and more, crucial for validating research outcomes. The conference has introduced specific guidelines for artifact submission:
+
+1. **Mandatory Artifact Availability:**
+   - Authors must share artifacts publicly for availability verification unless a justified exemption is provided (e.g., licensing restrictions, NDA).
+   - Artifacts must be hosted on platforms supporting permanent access like Zenodo, FigShare, or Software Heritage, excluding personal sites or GitHub.
+
+2. **Optional Functionality and Reproducibility Assessment:**
+   - Authors can submit artifacts for additional assessments after the final papers are due.
+
+**Submission Process:**
+
+USENIX Security '25 will conduct Artifact Evaluation (AE) in two phases:
+
+1. **Phase-1: Artifacts Available (Mandatory)**
+   - Ensure artifacts comply with the "Artifacts Available" badge criteria.
+   - Submit a permanent link to recommended archival platforms.
+   - Artifacts should be in line with the “Open-Science” policy discussed in the paper.
+
+2. **Phase-2: Artifacts Functional/Results Reproducible (Optional)**
+   - Includes a detailed evaluation to receive additional badges.
+   - Submission post-camera-ready deadline, allowing additional preparation.
+   - Authors should prepare for discussions with AEC members to refine their artifacts for badge issuance.
+
+**Artifact Evaluation:**
+
+- **Artifacts Available Badge:**
+  - All accepted papers must achieve this by ensuring public availability via stable references/DOIs on approved platforms.
+
+- **Artifacts Functional Badge:**
+  - Documents, completeness, and exercisability are assessed to determine if artifacts are functional and relevant to paper outcomes.
+
+- **Results Reproduced Badge:**
+  - AEC evaluates artifact's ability to independently replicate the main results, validating paper claims within acceptable tolerance.
+
+**Packaging and Appendix:**
+
+- **Artifact Packaging:**
+  - Incorporate a "README" with clear instructions.
+  - Potential formats include source code, containers/VMs, live web instances, and internet-accessible hardware.
+  - Artifacts must be easy to locate and utilize by future researchers.
+
+- **Artifact Appendix:**
+  - A maximum 3-page document detailing the artifact evaluation roadmap.
+  - Links paper claims to the artifact, guiding evaluators on result reproduction.
+  - Appendices will be published with the artifact.
+
+**Review Process:**
+
+- **Single-Blind Review:**
+  - AEC evaluates artifacts confidentially; authors may be contacted for clarifications.
+
+- **Destructive Artifacts:**
+  - Clearly indicate if artifacts are potentially harmful; notify AEC to ensure safe evaluation practices.
+
+**Final Instructions:**
+
+- For accepted badges, a camera-ready artifact appendix will be collected, detailing final artifact location and additional materials. Authors are encouraged to utilize versioning features of platforms to maintain artifact consistency.
+
+This structured approach aims to standardize artifact availability, enhance reproducibility, and facilitate the integration of research artifacts into broader scientific ecosystems.

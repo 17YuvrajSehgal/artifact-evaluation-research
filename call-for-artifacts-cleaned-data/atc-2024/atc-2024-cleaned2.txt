@@ -1,0 +1,69 @@
+**Generalized Guidelines for Artifact Evaluation and Submission for Scientific Conferences**
+
+---
+
+**Rationale and Overview:**
+
+Artifacts in scientific papers include software, hardware, datasets, mechanized proofs, models, test suites, and benchmarks. Their availability and quality are critical for verifying research claims and ensuring reproducibility. Due to historical challenges in reproducibility, many conferences encourage or require artifact submission for evaluation.
+
+**Goals and Benefits:**
+
+- **Replicability and Reproducibility:** Encouraging artifact submission ensures results can be independently verified.
+- **Community Engagement:** Authors contribute to collective scientific knowledge, facilitating further research and innovation.
+- **Recognition:** Successful artifact evaluation provides badges and acknowledgment, enhancing paper credibility.
+
+**Evaluation Criteria:**
+
+Submissions may be evaluated for one or more badges:
+
+1. **Artifacts Available:**
+   - Artifacts must be publicly retrievable on recognized repositories (e.g., Zenodo, GitHub). Permanent access is crucial.
+  
+2. **Artifacts Functional:**
+   - Artifacts should function as expected, with comprehensive documentation, completeness, and ability to perform experiments.
+
+3. **Results Reproduced:**
+   - Independent reproduction of results within acceptable tolerance is possible, supporting paper claims.
+
+**Submission Process:**
+
+1. **Registration:**
+   - Submit an abstract detailing artifacts and their role in the paper, mentioning software/datatype, requirements, and any dependencies.
+
+2. **Submission:**
+   - Provide URLs for repositories containing software/data. Ensure a "ready for review" status.
+   - Meeting specific criteria leads to eligibility for respective badges.
+
+**Review Process:**
+
+- **Kick-the-tires Phase:** Initial checks for submission readiness—authors can address preliminary issues.
+- **Full Evaluation:** Detailed assessment of artifacts' functionality, documentation, and reproducibility.
+- Reviewers operate under a single-blind process, respecting confidentiality and anonymity.
+
+**Artifact Packaging Guidelines:**
+
+- Provide detailed "README" documentation.
+- *Getting Started Instructions* for basic functionality checks.
+- *Detailed Instructions* for full evaluation.
+- Use robust formats like Docker containers, VMs for easy installation and execution.
+- Ensure documentation allows external execution if needed.
+
+**Artifact Formats:**
+
+- **Source Code:** For minimal dependency setups.
+- **Virtual Machines/Containers:** Pre-configured environments for complex requirements.
+- **Binary Installers:** Clearly define platform-specific needs.
+- **Live Web Instances:** Maintain access during the evaluation period.
+- **Accessible Hardware:** Provide remote access where necessary.
+
+**Considerations for Special Cases:**
+
+- Clearly document any significant computation or dependency needs.
+- For artifacts requiring custom hardware or environments, arrange remote access.
+- Flag artifacts performing potentially harmful operations and detail precautions.
+
+**Feedback and Iterative Improvement:**
+
+Throughout the evaluation, reviewers may interact with authors to refine and improve artifacts, contributing to badge eligibility and enhancing research deployment.
+
+By following these generalized guidelines, researchers ensure robust participation in artifact evaluation processes enhancing research transparency, reproducibility, and overall scientific discourse.

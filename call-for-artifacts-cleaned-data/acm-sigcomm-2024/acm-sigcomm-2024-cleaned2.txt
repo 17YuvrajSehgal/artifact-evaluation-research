@@ -1,0 +1,56 @@
+**Generalized Guidelines for Artifact Evaluation and Submission**
+
+---
+
+**Artifact Review and Badging:**
+
+Artifacts are evaluated based on selected criteria which correspond to specific badges:
+
+1. **Artifacts Available:**
+   - Artifacts must be publicly and permanently retrievable.
+   - Valid repositories include ACM Digital Library, institutional repositories, and open commercial repositories (e.g., GitHub, GitLab, FigShare).
+   - This badge requires only the availability, not functionality or correctness.
+
+2. **Artifacts Evaluated - Functional:**
+   - Artifacts must match the paper’s expectations in functionality, usability, and relevance.
+   - Evaluation involves checking:
+     - Documentation: Sufficient details provided for usage.
+     - Consistency: Alignment with the paper.
+     - Completeness: Incorporation of all key components.
+     - Exercisability: Ability to run and replicate experiments.
+
+**Appendix Inclusion:**
+- Authors are encouraged to document artifacts in an optional two-page appendix in their publication, using a standard format.
+
+**Review and Anonymity:**
+
+- The evaluation is "single-blind": Authors are known to evaluators, but not vice versa.
+- Analytics or tracking on artifact websites should be avoided during the evaluation to protect evaluator anonymity.
+- Artifacts can be private; AEC cannot publicize or retain content without consent. Evaluation participation does not mandate later publication.
+
+**Submission Process:**
+
+- Artifacts can be submitted via the designated evaluation site for the conference.
+- A complete artifact package must include the paper, the artifact, and a README or documentation guide.
+
+**Packaging Suggestions:**
+
+- **Source Code:** Suitable for artifacts with minimal dependencies, easily installable.
+- **Virtual Machine/Container:** Pre-configured environments using Docker or OVF files.
+- **Binary Installer:** Specific platform and runtime requirements must be indicated.
+- **Live Instance/Web Access:** Accessible for the evaluation duration.
+- **Internet-Accessible Hardware:** VPN-access or other methods for hardware-required artifacts.
+- **Screencast:** Especially useful for proprietary software/data requirements, significant computation needs, or specific hardware dependencies.
+
+**Conflicts of Interest:**
+
+- Defined as current or recent professional ties or collaborations within the last two years.
+- Proper identification of conflicts is crucial to maintain evaluation integrity.
+- AEC chairs will review declared conflicts to ensure fairness.
+
+**Artifacts with Malicious Operations:**
+
+- Explicit warnings in the README are compulsory for artifacts designed to perform potentially harmful operations.
+- Contact AEC chairs for guidance if the artifact falls into this category.
+
+Following these guidelines helps streamline the artifact evaluation process and ensures a consistent, fair approach to assessing the contributions associated with academic publications.

@@ -1,0 +1,46 @@
+**Generalized Submission Guidelines for Artifact Evaluation**
+
+**Artifact Evaluation Overview:**
+- Conferences often lack formal processes to submit and evaluate artifacts beyond the paper itself. To address this, an optional artifact evaluation process is adopted, inspired by practices in software engineering and security fields.
+
+**Benefits of Evaluating Artifacts:**
+- Promotes replicability and reproducibility.
+- Facilitates collaboration by building on existing work.
+- Provides authors recognition, leading to higher-impact research publications.
+- Enhances the culture of open and reusable research.
+
+**Badges:**
+- **Open Research Objects (ORO):** Indicates permanent archiving in a public repository with open licenses.
+- **Research Objects Reviewed (ROR):** Shows conformity of all research artifacts with paper expectations.
+- Badges can be issued independently.
+
+**Evaluation Criteria:**
+Artifacts should be:
+- Consistent with the paper
+- As complete as possible
+- Well-documented
+- Easy to reuse
+
+**Artifact Details:**
+- Acceptable artifacts include software, hardware, datasets, mechanized proofs, test suites, etc.
+- Paper proofs are not accepted due to time and expertise constraints.
+- Submission does not imply public access, though openness is encouraged.
+- Include detailed documentation for potentially malicious artifacts to ensure safe evaluation.
+
+**Submission Requirements:**
+1. **Abstract:** Provide a PDF with an abstract for the artifact, outlining core ideas and evaluation focus.
+2. **Accepted Paper Version:** A PDF of the accepted paper's latest version.
+3. **Artifact Documentation:** Instruction on testing and/or reproducing paper contributions.
+4. **Artifact Access:** A stable reference, ideally via a DOI (e.g., through Zenodo), which can evolve with reviewer feedback.
+
+**Submission Process:**
+- Artifacts are submitted post-acceptance of the paper.
+- At least one review committee member evaluates the artifact, resolving any minor issues while maintaining anonymity.
+- Successful evaluations lead to badge awards reflected in the camera-ready paper version.
+
+**Confidentiality:**
+- Reviewers cannot publicize or keep any part of the artifact post-evaluation unless published by the authors.
+- Open publication is optional, contingent on applying for the ORO badge.
+
+**Contact and Queries:**
+- Authors are encouraged to contact the evaluation committee for issues concerning special requirements for certain artifacts like bug-finding tools.

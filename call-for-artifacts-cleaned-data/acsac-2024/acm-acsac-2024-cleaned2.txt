@@ -1,0 +1,49 @@
+**Generalized Guidelines for Security Research Artifact Evaluation**
+
+---
+
+**Rationale:**
+
+Security research often suffers from poor reproducibility due to the lack of released software and datasets. This hinders fair comparisons among different solutions and burdens researchers with re-implementation tasks. Encouraging the release and public accessibility of software and data artifacts addresses these issues, promoting reproducibility and real-world deployment of security solutions.
+
+**Participation Incentives:**
+
+- Authors participating in the artifact evaluation are recognized with a special mention at the conference and on the official website, as well as an IEEE Xplorer badge on their papers.
+
+**Artifacts Submission and Registration:**
+
+1. **Artifacts Registration:**
+   - Submit the paper title and a brief description of the intended artifacts (software and/or data), specifying where they were utilized in the paper.
+   - For software, include details on source code/binaries and execution requirements.
+   - For data, provide information on size, format, and schema.
+
+2. **Artifacts Submission:**
+   - By the deadline, submit the paper PDF, code repository URL (e.g., GitHub), and a data repository link if applicable.
+   - Check the "ready for review" box for consideration.
+
+3. **Preparation Recommendations:**
+   - Use a single repository or stable webpage for artifact downloads and documentation.
+   - Provide detailed documentation beyond paper contents, referencing specific sections or data as needed.
+   - Employ Docker containers or VirtualBox images for smooth compilation/execution to avoid dependency issues.
+   - Ensure documentation supports execution outside of provided environments.
+   - Arrange remote access to custom systems or infrastructure if necessary.
+   - Include execution time estimates and environment descriptions for resource-intensive artifacts.
+
+**Artifacts Evaluation Process:**
+
+Artifacts will be evaluated based on IEEE guidelines for badges:
+
+1. **Documented:** An artifact inventory and description must enable exercise by reviewers.
+2. **Consistent:** Artifacts should inherently contribute to the paper's results.
+3. **Complete:** Artifacts should, as much as possible, include necessary components (Proxies for proprietary data can be used to demonstrate analysis).
+4. **Exercisable:** Scripts/software should generate paper results; data must be accessible and manipulable.
+
+- The evaluation is interactive, allowing authors to receive feedback and adjust submissions accordingly.
+- A "kick the tires" period precedes full evaluation to ensure readiness.
+- Mid-eval feedback helps optimize the artifact for successful badge acquisition.
+
+**Final Papers Preparation:**
+
+- Final papers must incorporate the IEEE Xplorer Artifact badge if earned, with specific instructions provided post-evaluation decision.
+
+Adherence to these guidelines fosters improved reproducibility and integrity within the security research community, enhancing collaborative progress and innovation.

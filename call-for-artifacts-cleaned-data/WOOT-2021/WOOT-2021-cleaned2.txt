@@ -1,0 +1,41 @@
+**Generalized Submission Guidelines for Artifact Evaluation**
+
+**Submission Requirements:**
+1. **Abstract Details:** Provide a PDF with an abstract detailing the core idea, focus, and evaluation objectives of your artifact.
+2. **Accepted Paper Version:** Include a PDF of the most recent version of your conditionally accepted paper.
+3. **Documentation:** Supply comprehensive documentation to reproduce the contributions of your paper.
+4. **Artifact Access:** Share a link to your artifact that is accessible anonymously.
+
+**Submission Conditions:**
+- Submit artifacts via the designated email, avoiding direct attachments of binary programs. Instead, provide links where necessary.
+- Artifacts can include software, hardware, datasets, documentation, mechanized proofs, models, test suites, benchmarks, etc.
+- Note that paper proofs are not accepted in the evaluation process.
+
+**Evaluation Criteria:**
+Artifacts are assessed on:
+- **Consistency:** Alignment with the paper.
+- **Completeness:** Thoroughness of the provided components.
+- **Documentation:** Clarity and effectiveness of documentation.
+- **Reusability:** Ease of reuse for facilitating further research.
+
+**Evaluation Process:**
+- Artifact evaluation is independent of paper reviews and occurs post-acceptance.
+- At least one evaluation committee member will review each artifact.
+- Reviewers may contact authors to resolve issues while maintaining anonymity.
+- Successful evaluations result in a dedicated badge on the camera-ready paper.
+
+**Confidentiality and Permission:**
+- Committee members cannot publicize or retain any part of the artifact.
+- Participation in the evaluation does not obligate authors to make artifacts public, though it is encouraged.
+
+**Special Considerations:**
+- Artifacts designed for malicious operations must be clearly indicated in accompanying documentation for safety.
+- Authors can discuss additional considerations (e.g., evaluating specific tools).
+
+**Benefits of Artifact Submission:**
+- Enhances science and engineering reproducibility.
+- Fosters community development by enabling further research and collaboration.
+- Provides recognition, contributing to higher impact research publications.
+
+**Contact:**
+- Reach out for queries or concerns, especially for artifacts requiring special handling, like bug-finding tools or other specialized requirements.

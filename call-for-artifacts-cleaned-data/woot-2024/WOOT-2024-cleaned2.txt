@@ -1,0 +1,41 @@
+**Generalized Submission Guidelines for Artifact Evaluation**
+
+**Overview:**
+- Artifacts associated with scientific papers can include software, hardware, datasets, documentation, mechanized proofs, models, test suites, and more. These artifacts are crucial for assessing the quality of research, and WOOT implements an optional artifact evaluation process to improve the submission and assessment process.
+
+**Available Badges:**
+Authors can submit artifacts for evaluation against these badges, each awarded independently:
+1. **Artifact Available:** The artifact is publicly accessible.
+2. **Artifacts Functional:** Core functionality is confirmed.
+3. **Results Reproduced:** Results reported in the paper are reproduced by the evaluation committee (AEC).
+
+**Benefits of Artifact Submission:**
+- Improves replicability and reproducibility.
+- Facilitates collaboration and further research.
+- Provides recognition, potentially leading to higher-impact publications.
+- Encourages reusable and open research practices.
+
+**Submission Process:**
+- Artifact evaluation is separate from the paper review process and follows paper acceptance.
+- AEC reviews the artifact by downloading and installing it, resolving minor glitches through author communication while preserving anonymity.
+- Successful evaluations result in awarded badges, which are displayed on the camera-ready version of the paper.
+
+**Requirements for Submission:**
+1. **Abstract:** Provide a PDF detailing the artifact’s core ideas and evaluation objectives.
+2. **Accepted Paper Version:** Include a PDF of your most recent accepted paper.
+3. **Artifact Documentation:** Detailed instructions on testing or reproducing contributions.
+4. **Artifact Access:** Provide a link to a stable reference or DOI, recommending platforms like Zenodo for public artifacts.
+
+**Packaging and Confidentiality:**
+- Artifacts should be well-packaged, ideally with setup scripts (e.g., Docker, Vagrant) to facilitate reproducibility.
+- Submission doesn't imply public access unless opting for the Artifact Available badge, thus confidentiality is maintained during and after evaluation.
+- Proposed malicious functionality must be flagged explicitly.
+
+**General Expectations:**
+- Artifacts should align with the paper content, be comprehensive, well-documented, and reusable for future research endeavors.
+
+**Contact and Additional Information:**
+- Queries and details can be addressed to the AEC chair at woot24aec@usenix.org. Authors are encouraged to seek clarification regarding artifacts with special requirements (e.g., malicious operations testing).
+
+**Conclusion:**
+By adhering to these guidelines, authors contribute to a culture that values transparent, reproducible, and high-quality scientific work, ultimately benefiting the research community at large.
