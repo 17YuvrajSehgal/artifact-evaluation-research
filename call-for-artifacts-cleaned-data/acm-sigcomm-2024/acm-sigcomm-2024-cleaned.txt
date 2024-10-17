@@ -1,0 +1,55 @@
+Artifact Review and Badging
+At artifact submission time, the authors will choose the criteria by which their artifacts will be evaluated. Based on ACM’s guidelines (https://www.acm.org/publications/policies/artifact-review-and-badging-current), the SIGCOMM 2024 conference will award two separate badges to a paper. An artifact can meet the criteria of one or both of the following badges:
+
+Artifacts Available: To earn this badge, the AEC must judge that the artifacts associated with the paper have been made available for retrieval, permanently and publicly. Valid hosting options include publisher repositories (ACM Digital Library), institutional repositories or open commercial repositories (e.g., GitHub, GitLab, FigShare, Dryad), not personal webpages. Other than making the artifacts available, this badge does not mandate any further requirements on functionality, correctness, or documentation.
+Artifacts Evaluated - Functional: To earn this badge, the AEC must judge that the artifacts conform to the expectations set by the paper in terms of functionality, usability, and relevance. The AEC will consider four aspects of the artifacts.
+Documented: are the artifacts sufficiently documented to enable them to be exercised by readers of the paper?
+Consistent: are the artifacts relevant to the associated paper?
+Complete: do the submitted artifacts include all of the key components described in the paper?
+Exercisable: do the submitted artifacts include the scripts and data needed to run the experiments described in the paper, and can the software be successfully executed?
+When the AEC judges that an artifact meets the criteria for one or both of the badges listed above, those badges will appear on the final version of the associated paper. In addition, the authors of the paper will be encouraged to add an Artifact Appendix of up to two pages to their publication. The goal of the appendix is to describe and document the artifact in a standard format.
+
+Review and Anonymity
+Artifact evaluation is "single-blind." The identities of artifact authors will be known to members of the AEC, but authors will not know which members of the AEC have reviewed their artifacts.
+
+To maintain the anonymity of artifact evaluators, the authors of artifacts should not embed any analytics or other tracking in the websites for their artifacts for the duration of the artifact-evaluation period. This is important to maintain the confidentiality of the evaluators. In cases where tracing is unavoidable, authors should notify the AEC chairs in advance so that AEC members can take adequate safeguards.
+
+At the same time, though the authors are visible to AEC, the submission of an artifact does not give the AEC permission to make its content public. AEC members may not publicize any part of your artifact during or after completing the evaluation, nor may they retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, etc. in your artifact. Participating in artifact evaluation does not require you to later publish your artifacts (although it is encouraged).
+
+Submission Instructions
+The SIGCOMM 2024 conference’s artifact evaluation welcomes submissions from all accepted papers. Authors of the accepted paper can submit their artifact via the artifact SIGCOMM24AE submission site https://sigcomm24ae.hotcrp.com/.
+
+Packaging Artifacts
+The AEC will accept any kind of digital artifact that authors wish to submit: software, data sets, survey results, test suites, mechanized proofs, etc. Physical objects, e.g., computer hardware, cannot be accepted due to the difficulty of making the objects available to members of the AEC. (If your artifact requires special hardware, consider if/how you can make it available to evaluators online.)
+
+A complete artifact package must contain:
+
+the accepted version of your SIGCOMM paper,
+the artifact itself, and
+a "README" or documentation that describes how the submitted artifact can be exercised.
+For the submitted artifact, we recommend the authors to consider (one, or multiple, but not limited to) the following methods to package their artifacts:
+
+Source code: If your artifact has few dependencies and can be installed easily on several operating systems, you may submit source code and build scripts. However, if your artifact has a long list of dependencies, please use one of the other formats below.
+Virtual machine/container: A virtual machine or Docker image containing the software application already set up with the right toolchain and intended runtime environment. For example:
+For raw data, the VM would contain the data and the scripts used to analyze it.
+For a mobile phone application, the VM would have a phone emulator installed.
+For mechanized proofs, the VM would contain the right version of the relevant theorem prover. We recommend using a format that is easy for AEC members to work with, such as OVF or Docker images..
+Binary installer: Indicate exactly which platform and other run-time dependencies your artifact requires.
+Live instance on the web: Ensure that it is available for the duration of the artifact evaluation process.
+Internet-accessible hardware: If your artifact requires special hardware, or if your artifact is actually a piece of hardware, please make sure that AEC members can somehow access the device. VPN-based access to the device might be an option.
+Screencast: A detailed screencast of the tool along with the results, especially if one of the following special cases applies:
+The artifact needs proprietary/commercial software or proprietary data that is not easily available or cannot be distributed to the AEC.
+The artifact requires significant computation resources (e.g., more than 24 hours of execution time to produce the results) or requires huge data sets.
+The artifact requires specific hardware or software that is not generally available in a typical lab and where no access can be provided in a reasonable way.
+
+Artifact Metadata and Conflicts
+We define conflict of interest with an AEC member using the following principles:
+
+You are currently employed at the same institution, have been previously employed at the same institution within the last 12 months, or are going to begin employment at the same institution.
+You have a professional partnership as follows:
+Past or present association as thesis advisor or advisee.
+Collaboration on a project, publication, or grant proposal within the past 2 years (i.e., 2022 or later).
+The AEC chairs and members will review conflicts to ensure the integrity of the reviewing process, adding or removing conflicts where necessary and sanity-checking cases where conflicts do not appear justified. Improperly identifying AEC members as a conflict to avoid individual reviewers may lead to your artifact submission being rejected. If you have concerns, please contact the AEC chairs.
+
+Artifact with Malicious Operations
+Some artifacts may attempt to perform malicious or destructive operations by design. These cases should be boldly and explicitly flagged in detail in the README so the AEC can take appropriate precautions before installing and running these artifacts. Please contact AEC co-chairs if you believe that your artifacts fall into this category.

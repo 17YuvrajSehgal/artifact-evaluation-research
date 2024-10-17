@@ -1,0 +1,60 @@
+Call for Paper Artifacts
+Artifacts registration deadline: August 25 - 11:59pm EDT
+Artifacts submission deadline: August 28 - 11:59pm EDT
+Interactive Artifacts evaluation period: September 2 - October 8 (includes a “kick the tires” period, and mid-eval feedback. See the evaluator guide)
+Artifacts evaluation decision: October 10
+Final papers with AE badge labels due: refer to camera-ready deadline
+
+Artifacts Evaluation Co-Chair: Adwait Nadkarni, William & Mary
+Artifacts Evaluation Co-Chair: Tobias Fiebig, MPI-INF
+
+Submit Artifacts
+
+This call for Paper Artifacts is reserved to authors of papers accepted or conditionally accepted to this year's ACSAC. For submissions to the Cybersecurity Artifacts Competition and Impact Award, which is open to previously published papers, click here.
+
+Security research is often criticized for the poor reproducibility of its results. Unfortunately, authors seldom release the software they develop and the datasets they use to perform their experiments. This makes it difficult to compare different solutions and forces other researchers to undergo the tedious and error-prone task of re-implementing previous approaches and to compare solutions on different datasets, which may not be a fair comparison.
+
+To help improve this situation, ACSAC strongly encourages authors of accepted papers to submit their software and data artifacts for evaluation and to make them publicly available to the entire community. Releasing software and data artifacts represents an important step towards facilitating the reproducibility of research results, and ultimately contributes to the real-world deployment of novel security solutions. Please also refer to the main CFP for recommendations regarding artifact availability at the time of paper submission.
+
+Authors of accepted papers who participate in this Artifacts Evaluation program will interact with a special committee dedicated to evaluating the submitted artifacts (e.g., to test that source code compiles and runs correctly, or that datasets content match their description). Authors can decide what they want to submit (software, data, or both). The evaluation process will take place in parallel with the preparation of the camera-ready version of the paper. The authors of the submitted artifacts need to commit to keep them permanently available online on a publicly accessible website.
+
+We believe that this is an important initiative that can help the entire community increase its reputation, and make research in the security field proceed faster by taking advantage of systems previously built by other researchers. Therefore, we plan to reward authors who participate in this program with a special mention during the conference and on the ACSAC webpage, an IEEE Xplorer badge on their papers, and (if enough authors participate to the program) by reserving a Distinguished Paper Award for this group.
+
+Submission Guidelines
+Artifacts registration
+By the registration deadline, submit the title of your accepted paper along with a short, abstract-like description of the artifact that will be submitted. The artifact submission abstract (not to be confused with the paper abstract) should describe whether the submitted artifact will consist of software and/or data, and in what parts of the accepted paper the software/data to be submitted was used (e.g., what evaluation subsections or experiments). If software is submitted, the abstract should also mention if source code or binaries will be submitted, and what are the main dependencies and requirements for executing the code (e.g., OS version, special hardware, specific compilers, etc.). If data is submitted, high-level information about the size, format, and schema should be provided.
+
+Artifacts submission process
+By the submission deadline, submit a the PDF of your ACSAC paper submission, along with URLs for your code repository (e.g., a Github link) and documentation, as well as a link to a repository for your data if you are sharing data in addition to code. For your artifact submission to be considered, you will need to check the "ready for review" checkbox.
+
+Submit Artifacts
+
+To maximize the probability of your submission receiving a positive evaluation, we highly recommend to take the following steps:
+
+Create a single repository (e.g. on GitHub) or a stable webpage that contains both the artifact download instructions as well as the documentation for compiling/running any source code or for interpreting any artifact data.
+The reviewers will refer back to your paper. However, evaluating the artifacts will very likely require more detailed information than what is contained in the paper itself. The artifact documentation should contain references to appropriate paper sections where the artifact was used (e.g., specific subsection of the Evaluation section of the paper) and to the data that the reviewer is expected to obtain by running/interpreting the artifact.
+If you are submitting code to be compiled or binaries to be executed, we highly recommend that you create a container (using Docker) or Virtual Machine image (using VirtualBox) in which the software can compile and/or execute correctly. This will make it much less likely for the reviewer to encounter numerous problems with OS version and software package dependencies that may be difficult to resolve in a timely fashion.
+Similarly, if you are submitting data along with a set of data analysis scripts, the container or VM should include both the artifact data, the analysis scripts, and necessary software dependencies for the scripts to produce the expected analysis results.
+Even though you can submit a container or VM, please make sure that the artifact documentation includes all necessary instructions to satisfy software/library dependencies. Ideally, the reviewer should be able to compile/execute your code even outside of your container or VM by following the instructions in your artifact documentation.
+If your artifact consists of a live service instance on the Web, make sure to document how the Web service must be used, and that the service is reachable for the entire evaluation period.
+If your artifact depends on software that must run on a custom system, such as a high-performance computing cluster, cloud infrastructure, special hardware (e.g., SGX, GPU, TPU), or if it requires significant computing resources of other types, you must make arrangements to provide the reviewers with remote access to such resources; this will allow the reviewers to execute your software in the required special environment.
+If exercising the artifacts requires significant amounts of time (e.g., software compilation/execution requires several hours) to produce the expected results, this should be explicitly explained in the artifact documentation and in the artifact submission abstract. The documentation should provide an execution time estimate, along with a description of the computing environment in which the estimate was obtained.
+Submit Artifacts
+
+Artifacts evaluation
+The evaluation process will follow the IEEE review guidelines for assigning an Artifact Evaluated badge at the Available, Reviewed, or when possible, Reproducible level, as outlined in the following IEEE ACM document:
+https://ieeexplore.ieee.org/Xplorehelp/overview-of-ieee-xplore/about-content#reproducibility-badges
+
+Specifically, to be granted a badge artifacts should be:
+
+Documented: At minimum, an inventory of artifacts is included, and sufficient description provided to enable the artifacts to be exercised.
+Consistent: The artifacts are relevant to the associated paper, and contribute in some inherent way to the generation of its main results.
+Complete: To the extent possible, all components relevant to the paper in question are included. (Proprietary artifacts need not be included. If they are required to exercise the package then this should be documented, along with instructions on how to obtain them. Proxies for proprietary data should be included so as to demonstrate the analysis.)
+Exercisable: Included scripts and/or software used to generate the results in the associated paper can be successfully executed, and included data can be accessed and appropriately manipulated.
+The evaluation process is highly interactive, and reviewers may contact the artifact’s corresponding authors via HotCRP throughout the reviewing process. Particularly, the process will start with an initial “kick the tires” period, which will help reviewers determine if the submission is sufficient for them to be able to review the artifact. After an initial review following this period, the reviewers will provide authors with “mid-eval feedback”, which will help authors adapt the artifact or its documentation to receive all possible badges. Please see the Artifact Evaluator guide (for reviewers) for details.
+
+Final papers preparation
+In addition to the main ACSAC final paper preparation guidelines, the authors whose artifacts are successfully evaluated and assigned an IEEE Xplorer Artifact badge will need to include the related badge label in their papers before final submission. Additional instructions will be provided after the artifact evaluation decisions are notified to the authors.
+
+Contacts
+If you have any questions, please contact the Artifacts Evaluations Chairs at ae-chairs@acsac.org.
